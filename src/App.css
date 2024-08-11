@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+   background-image: url('./images/13.jpg');
+   width: 100%;
+   min-height: 100vh;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  .navbar{
+      text-align:center;
+    color:midnightblue;
+  }
+  .log{
+      text-align: center;
+      color:midnightblue;
+  }
+  .tex{
+      text-align: center;
+      color:midnightblue;
+  }
+  .head{
+    text-align: center;
+   
+    color:navy;
+    
+  }
+  .card-header{
+      color: midnightblue;
+  }
+  .form-group{
+      color: mediumblue;
+  }
+  .login-form{
+    width: 500px;
+    margin: 65px auto;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    border-radius: 4px;
+    box-shadow: 0 2px 25px rgba(0, 0, 0, 0.2);
+     
+    font-family: 'Rubik', sans-serif;
+    align-items: center;
+  }
+  .login-form .input-field {
+    padding: 12px 5px;
+    color: orangered;
+  }
+  .login-form .input-field input {
+    font-size: 16px;
+    display: block;
+    font-family: 'Rubik', sans-serif;
+    width: 100%;
+    padding: 10px 1px;
+    border: 0;
+    border-bottom: 1px solid #747474;
+    outline: none;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+  }
+.left{
+    text-align: left;
+  border-style: hidden;
+ padding-left: 50vh;
+}
